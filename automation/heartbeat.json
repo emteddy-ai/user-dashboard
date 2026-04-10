@@ -1,0 +1,30 @@
+{
+  "serviceName": "user-dashboard",
+  "timestamp": "2024-01-26T10:30:00Z",
+  "status": "UP",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "UP",
+      "responseTimeMs": 15
+    },
+    "authenticationService": {
+      "status": "UP",
+      "responseTimeMs": 22
+    },
+    "cache": {
+      "status": "UP",
+      "responseTimeMs": 5
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.65,
+    "memoryUsage": 0.78,
+    "activeUsers": 125
+  },
+  "details": {
+    "message": "Service is running normally.",
+    "instanceId": "user-dashboard-prod-1"
+  }
+}
